@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier":[
+      "warn",
+      {
+        "endOfLine": "auto",
+        "tabWidth":4
+      }
+    ],
+    "no-unused-vars":"warn",
+    "no-console":"off",
+    "func-names":"off",
+    "global-require":"off",
+    "object-shorthand":"off"
+  }
+}
